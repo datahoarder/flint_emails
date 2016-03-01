@@ -37,4 +37,12 @@ Since the PDFs are so large (up to 400+MB in size), this is a good chance to tes
         $ git commit -m 'pdfs'
         $ git push
         DN0a22359a:flint_emails dtown$ git push
-        Git LFS: ( of 24 files) 126.96 MB / 1.80 GB   
+        Git LFS: (1 of 24 files) 126.96 MB / 1.80 GB   
+
+Though I ended up with this error:
+
+    Git LFS: (24 of 24 files) 1.80 GB / 1.80 GB                                                                              
+    Post https://api.github.com/lfs/datahoarder/flint_emails/objects/54895bfasadsd3246djg29sfd3c0f2asadsd3246djg29sfasdf32f7/verify: EOF
+    error: failed to push some refs to 'git@github.com:datahoarder/flint_emails.git'
+
+...though it seemed to resolve itself after the next push...

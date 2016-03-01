@@ -1,43 +1,12 @@
 # Flint Emails
 
+A repository collecting, transcribing, and maybe parsing the publicly-released emails in the Flint water scandal.
 
-- 2016-01-20 -- Gov. Rick Snyder emails related to Flint from 2014 and 2015
-  URLs
-    - http://somcsprod2govm001.usgovcloudapp.net/files/snyder%20emails.pdf
+Since the PDFs are so large (up to 400+MB in size), this is a good chance to test out Github's support of [Large File Storage (LFS)](https://git-lfs.github.com/), which I initiated with:
 
-- 2016-02-12
-  + URLs
-    - http://somcsprod2govm001.usgovcloudapp.net/files/deq1.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/deq2.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/deq3.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/deq4.pdf
-    - http://www.michigan.gov/documents/snyder/Rowe_2013_Reliablity_Study_compressed_515343_7.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/dtmb.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/dhhs.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/mdard.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Treasury.pdf
-    - http://www.michigan.gov/documents/snyder/MSPEmails_Updated_514906_7.pdf
-  - Stories
-    + [Gov. Rick Snyder releases departmental emails produced regarding Flint water crisis](http://www.michigan.gov/snyder/0,4668,7-277-57577_57657-376716--,00.html)
+        $ git lfs track "*.pdf"
 
-- 2016-02-26
-  - URLs
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_1.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_2.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_3.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_4.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_5.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_6.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_7.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_8.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_9.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_10.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_11.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_12.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_13.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_14.pdf
-    - http://somcsprod2govm001.usgovcloudapp.net/files/Staff_15.pdf
-    
-  - Stories
-    - [Snyder releases thousands of Flint water crisis e-mails](http://www.freep.com/story/news/local/michigan/flint-water-crisis/2016/02/26/gov-snyder-release-flint-e-mails/80976870/)
+### Current status
 
+- All known documents listed in [docs.yaml](docs.yaml)
+- All known documents downloaded to [docs/originals](docs/originals)

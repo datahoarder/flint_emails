@@ -3,7 +3,7 @@ from os.path import basename, join, exists
 import yaml
 import requests
 DOCS_LIST = 'docs.yaml'
-DOCS_DIR = 'docs'
+DOCS_DIR = 'docs/originals'
 
 with open(DOCS_LIST) as df:
     for dateslug, docsdict in yaml.load(df).items():
